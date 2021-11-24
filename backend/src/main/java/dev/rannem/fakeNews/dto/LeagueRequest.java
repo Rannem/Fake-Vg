@@ -9,7 +9,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class FakeSportsRequest {
-    private String test;
-
+public class LeagueRequest {
+    private String leagueName;
 }
